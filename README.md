@@ -15,16 +15,16 @@ Es correlativa de:
 
 ## Clonar el repositorio
 
-> https
+**https**
 
 ```bash
-git clone https://github.com/FAMAF-resources/3ro_2C-Bases_de_Datos-FAMAF.git
+git clone --recurse-submodules https://github.com/FAMAF-resources/3ro_2C-Bases_de_Datos-FAMAF.git
 ```
 
-> shh
+**shh (recomendado)**
 
 ```bash
-git clone git@github.com:FAMAF-resources/3ro_2C-Bases_de_Datos-FAMAF.git
+git clone --recurse-submodules git@github.com:FAMAF-resources/3ro_2C-Bases_de_Datos-FAMAF.git
 ```
 
 ## Update
@@ -34,6 +34,8 @@ git pull && git submodule update --init --recursive
 ```
 
 # ¿Cómo contribuir?
+
+Este es un proyecto con fines de facilitar el acceso al material para estudio.
 
 Cualquier persona puede realizar su aporte, sea apunte, libro, o actualizacion de este repositoro.
 
